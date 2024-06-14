@@ -1,0 +1,35 @@
+
+body {
+    background: linear-gradient(rgba(15,168,198, .2), rgba(15,168,198, .5)), url('../images/moviebackground.jpeg');
+    min-height: 100vh;
+    background-size: cover;
+}
+
+form {
+    background-color: rgba(22,83,99, .8);
+    max-height: 200px;
+    max-width: 500px;
+}
+
+.card {
+    max-width: 800px;
+}
+
+
+#image {
+    min-width: 250px;
+}
+
+#image img {
+    height: 100%;
+    width: auto;
+}
+
+
+
+/* media query to make sure the image on a medium screen doesn't go past a certaain width */
+@media screen and (min-width: 768px){
+    #image {
+        width: 300px;
+    }
+}

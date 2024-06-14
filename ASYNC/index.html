@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>A Hello!</h1>
+        <button onclick="handleClick()">Greet Human</button>
+        <div id="greetMessage"></div>
+        <div id="farewellMessage"></div>
+    </div>
+    
+    <br><br>
+    <form onsubmit="handleSubmit(event)">
+        <input type="text" name="pokemon" placeholder="Pokemon Name here">
+        <button type="submit">Search</button>
+    </form>
+    
+    <div id="pokemon-display">
+        <!-- DISPLAY POKE DATA HERE -->
+    </div>
+    
+    <button onclick="handleAPIClick()">Post Todo</button>
+    
+</body>
+</html>
